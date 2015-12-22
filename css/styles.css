@@ -1,0 +1,125 @@
+body {
+	font-family: sans-serif;
+	background-color: #EAF2F8;
+	color: #212121;
+}
+
+nav {
+	width: 100%;
+	background-color: #FFC107;
+	padding: 20px;
+	color: #ffffff;
+}
+
+ul.nav {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px 5px 0px 0px;
+}
+
+li.nav {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+nav p {
+	color: #FFECB3;
+}
+
+nav a {
+	color: #EE6352;
+	font-style: strong;
+}
+
+.code-container {
+	width: 80%;
+}
+
+#social {
+	margin: 10px auto;
+	position: relative;
+	text-align:center;
+}
+
+#social-img {
+	display: inline-block;
+	margin: 10px;
+}
+
+/* WORK SAMPLE WEBPAGE */
+
+h1#work-section { 
+	text-align: center;
+	color: #607D8B;
+	/*color: #727272;*/
+}
+
+.work-sample {
+	box-sizing: border-box;
+	height: 150px;
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.white-background {
+	background: rgba(255, 255, 255, 0.75);
+	padding: 10px;
+}
+
+.work-loc-status {
+	margin: 0.25em 0px;
+}
+
+.work-descrip {
+	margin: .25em 0px;
+}
+
+#h-inline {
+	display: inline-block;
+	margin: 0px;
+}
+
+h1#h-inline {
+	color: #212121;
+	padding-right: 15px;
+}
+
+h3#h-inline {
+	color: #455A64;
+}
+
+/* WORK / ABOUT PAGE: BACKGROUND IMAGES FOR WORK SAMPLE DIVS */
+
+#g4c-img {
+	background-image: url(../imgs/g4cfest_s.png);
+}
+
+#glad-libs-img {
+	background-image: url(../imgs/gladLibs.png);
+}
+
+#sea-tech-img {
+	background-image: url(../imgs/sea-tech.png);
+}
+
+#mj-img {
+	background-image: url(../imgs/the-mj.png);
+}
+
+#igda-dc-img {
+	background-image: url(../imgs/igda-dc.png);
+}
+
+.code-container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.code {
+	width: 125px;
+	height: 125px;
+	background-color: blue;
+	display: inline-block;
+	margin: 10px;
+}
