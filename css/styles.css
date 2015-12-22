@@ -2,7 +2,23 @@ body {
 	font-family: sans-serif;
 	background-color: #EAF2F8;
 	color: #212121;
+	font-size: 1em;
 }
+
+.code-container {
+	margin: 0 auto;
+	width: 600px;
+} /* Gutter on the lft and right side of page */
+
+a {
+	color: #FFA000;
+}
+
+a:visited {
+	color: #FFC107;
+}
+
+/* NAVIGATION - BEGIN */
 
 nav {
 	width: 100%;
@@ -11,13 +27,13 @@ nav {
 	color: #ffffff;
 }
 
-ul.nav {
+nav ul {
 	list-style: none;
 	padding-left: 0px;
 	margin: 0px 5px 0px 0px;
 }
 
-li.nav {
+nav li {
 	margin-right: 20px;
 	display: inline-block;
 }
@@ -26,14 +42,16 @@ nav p {
 	color: #FFECB3;
 }
 
-nav a {
+nav h1 {
+	margin: 0px;
+}
+
+a#nav {
 	color: #EE6352;
 	font-style: strong;
 }
 
-.code-container {
-	width: 80%;
-}
+/* NAVIGATION - END */
 
 #social {
 	margin: 10px auto;
@@ -46,7 +64,7 @@ nav a {
 	margin: 10px;
 }
 
-/* WORK SAMPLE WEBPAGE */
+/* WORK SAMPLE PAGE - BEGIN */
 
 h1#work-section { 
 	text-align: center;
@@ -60,11 +78,17 @@ h1#work-section {
 	width: 600px;
 	margin: 0 auto;
 	padding: 10px;
+
 }
 
 .white-background {
 	background: rgba(255, 255, 255, 0.75);
 	padding: 10px;
+	position: relative; /* Vertical align CSS styling found at http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/	*/
+  	top: 50%;
+  	-webkit-transform: translateY(-50%); 
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 .work-loc-status {
@@ -86,6 +110,14 @@ h1#h-inline {
 }
 
 h3#h-inline {
+	color: #455A64;
+}
+
+a#a-work {
+	color: #EE6352;
+}
+
+a:visited#a-work {
 	color: #455A64;
 }
 
@@ -111,15 +143,12 @@ h3#h-inline {
 	background-image: url(../imgs/igda-dc.png);
 }
 
-.code-container {
-	margin: 0 auto;
-	width: 600px;
-}
-
 .code {
 	width: 125px;
 	height: 125px;
 	background-color: blue;
 	display: inline-block;
-	margin: 10px;
+	margin: 0px 10px;
 }
+
+/* WORK SAMPLE PAGE - END */
