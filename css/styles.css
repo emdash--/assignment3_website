@@ -46,9 +46,14 @@ nav h1 {
 	margin: 0px;
 }
 
-a#nav {
+nav a {
 	color: #EE6352;
-	font-style: strong;
+	font-weight: bold;
+}
+
+nav a:visited {
+	color: #EE6352;
+	font-weight: bold;
 }
 
 /* NAVIGATION - END */
@@ -84,12 +89,12 @@ h1#work-section {
 .white-background {
 	background: rgba(255, 255, 255, 0.75);
 	padding: 10px;
-	position: relative; /* Vertical align CSS styling found at http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/	*/
+	position: relative; 
   	top: 50%;
   	-webkit-transform: translateY(-50%); 
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
-}
+} /* Vertical align CSS styling (above 5 lines) found at http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/	*/
 
 .work-loc-status {
 	margin: 0.25em 0px;
@@ -121,6 +126,16 @@ a:visited#a-work {
 	color: #455A64;
 }
 
+.code {
+	width: 125px;
+	height: 125px;
+	background-color: blue;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+/* WORK SAMPLE PAGE - END */
+
 /* WORK / ABOUT PAGE: BACKGROUND IMAGES FOR WORK SAMPLE DIVS */
 
 #g4c-img {
@@ -143,12 +158,3 @@ a:visited#a-work {
 	background-image: url(../imgs/igda-dc.png);
 }
 
-.code {
-	width: 125px;
-	height: 125px;
-	background-color: blue;
-	display: inline-block;
-	margin: 0px 10px;
-}
-
-/* WORK SAMPLE PAGE - END */
